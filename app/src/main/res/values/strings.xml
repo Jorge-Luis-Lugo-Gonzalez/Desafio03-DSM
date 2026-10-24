@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BookTrack - Desafío 03</string>
+    <string name="app_tagline">Tu compañero de lectura y metas anuales</string>
+
+    <!-- Auth -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="login_subtitle">Bienvenido de nuevo a tu biblioteca personal</string>
+    <string name="register_title">Crear Cuenta</string>
+    <string name="register_subtitle">Comienza a registrar y alcanzar tus metas de lectura</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="no_account">¿No tienes cuenta? Regístrate aquí</string>
+    <string name="already_account">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <!-- Validation messages -->
+    <string name="err_email_empty">El correo no puede estar vacío</string>
+    <string name="err_email_invalid">Formato de correo inválido</string>
+    <string name="err_password_short">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="err_password_mismatch">Las contraseñas no coinciden</string>
+
+    <!-- Main Activity -->
+    <string name="greeting_format">¡Hola, %1$s!</string>
+    <string name="section_goal_title">Meta Anual de Lectura (%1$d)</string>
+    <string name="goal_target_label">Meta anual:</string>
+    <string name="goal_completed_label">Terminados:</string>
+    <string name="goal_remaining_label">Faltan:</string>
+    <string name="goal_achieved">¡Meta anual alcanzada! Felicitaciones 🏆</string>
+    <string name="btn_edit_goal">Definir / Modificar Meta</string>
+    <string name="dialog_goal_title">Meta Anual de Libros</string>
+    <string name="dialog_goal_msg">Ingresa la cantidad de libros que te propones leer este año:</string>
+    <string name="dialog_goal_hint">Número mayor que 0</string>
+    <string name="err_goal_invalid">La meta debe ser un número entero mayor que cero</string>
+
+    <string name="section_currently_reading">Libros en Lectura</string>
+    <string name="empty_currently_reading">No tienes ningún libro en lectura en este momento.</string>
+
+    <!-- Navigation / Quick actions -->
+    <string name="action_add_book">Registrar Libro</string>
+    <string name="action_library">Biblioteca Completa</string>
+    <string name="action_stats">Estadísticas</string>
+
+    <!-- Book Form -->
+    <string name="add_book_title">Registrar Libro</string>
+    <string name="edit_book_title">Editar Libro</string>
+    <string name="book_title_hint">Título del libro</string>
+    <string name="book_author_hint">Autor</string>
+    <string name="book_genre_hint">Género</string>
+    <string name="book_total_pages_hint">Total de páginas</string>
+    <string name="book_read_pages_hint">Páginas leídas</string>
+    <string name="book_status_hint">Estado</string>
+    <string name="book_rating_hint">Calificación (1 - 5 estrellas)</string>
+    <string name="btn_save_book">Guardar Libro</string>
+    <string name="btn_delete_book">Eliminar</string>
+
+    <!-- Book form errors -->
+    <string name="err_title_invalid">El título es obligatorio y debe tener entre 2 y 60 caracteres</string>
+    <string name="err_author_invalid">El autor es obligatorio y debe tener entre 2 y 60 caracteres</string>
+    <string name="err_total_pages_invalid">El total de páginas debe ser un número entero mayor que cero</string>
+    <string name="err_read_pages_invalid">Las páginas leídas deben ser entre 0 y el total de páginas (%1$d)</string>
+    <string name="err_rating_required">La calificación es obligatoria cuando el libro está Terminado (1 a 5 estrellas)</string>
+    <string name="rating_disabled_info">La calificación solo se puede asignar si el estado es Terminado</string>
+
+    <!-- Library -->
+    <string name="library_title">Mi Biblioteca</string>
+    <string name="empty_library_msg">Aún no has agregado ningún libro a tu biblioteca.
+¡Presiona el botón + para comenzar!</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_to_read">Por leer</string>
+    <string name="filter_reading">Leyendo</string>
+    <string name="filter_completed">Terminados</string>
+
+    <!-- Stats -->
+    <string name="stats_title">Estadísticas del Año</string>
+    <string name="stats_by_genre_title">Libros Terminados por Género</string>
+    <string name="stats_top_genre_label">Género más leído</string>
+    <string name="stats_total_pages_label">Total de páginas leídas</string>
+    <string name="stats_best_book_label">Libro mejor calificado del año</string>
+    <string name="stats_no_best_book">No hay libros terminados calificados este año</string>
+    <string name="stats_no_finished_books">Sin libros terminados en este año</string>
+</resources>

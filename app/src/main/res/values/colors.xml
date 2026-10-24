@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Palette (Deep Navy / Royal Blue) -->
+    <color name="primary">#1E3A8A</color>
+    <color name="primary_dark">#172554</color>
+    <color name="primary_light">#3B82F6</color>
+    <color name="primary_container">#DBEAFE</color>
+    <color name="on_primary_container">#1E3A8A</color>
+
+    <!-- Accent / Secondary -->
+    <color name="secondary">#4F46E5</color>
+    <color name="secondary_container">#E0E7FF</color>
+    <color name="on_secondary_container">#3730A3</color>
+
+    <!-- Status Colors -->
+    <color name="status_por_leer">#EA580C</color>
+    <color name="status_por_leer_bg">#FFEDD5</color>
+    <color name="status_leyendo">#2563EB</color>
+    <color name="status_leyendo_bg">#EFF6FF</color>
+    <color name="status_terminado">#059669</color>
+    <color name="status_terminado_bg">#D1FAE5</color>
+
+    <!-- Genre Badge Colors -->
+    <color name="genre_novela">#7C3AED</color>
+    <color name="genre_novela_bg">#EDE9FE</color>
+    <color name="genre_scifi">#0284C7</color>
+    <color name="genre_scifi_bg">#E0F2FE</color>
+    <color name="genre_historia">#B45309</color>
+    <color name="genre_historia_bg">#FEF3C7</color>
+    <color name="genre_desarrollo">#0D9488</color>
+    <color name="genre_desarrollo_bg">#CCFBF1</color>
+
+    <!-- Warm Amber for Stars & Goals -->
+    <color name="gold_star">#F59E0B</color>
+    <color name="gold_star_dark">#D97706</color>
+    <color name="gold_light">#FEF3C7</color>
+
+    <!-- Backgrounds & Neutral Surfaces -->
+    <color name="background_light">#F8FAFC</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="divider_color">#E2E8F0</color>
+
+    <!-- Danger / Errors -->
+    <color name="color_error">#DC2626</color>
+    <color name="color_error_bg">#FEE2E2</color>
+</resources>

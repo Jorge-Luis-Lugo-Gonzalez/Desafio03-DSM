@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883413588813",
+    "project_id": "kotlin-firebase-17c4c",
+    "storage_bucket": "kotlin-firebase-17c4c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883413588813:android:748443c55b7c36f40df504",
+        "android_client_info": {
+          "package_name": "com.example.desafio03"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKUog9FM_rMK1BdWrjPHQ0p8LU9DKTC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
